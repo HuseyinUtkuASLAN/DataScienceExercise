@@ -16,6 +16,8 @@ For more information <link>https://grouplens.org/datasets/movielens/latest/</lin
 4. What are 5 most often rating users ?
 5. When was done first and last rate included in data set and what was the rated movie tittle?
 6. Find all movies released in 1990
+### Two different solutions for the same questions
+There are 2 main files in the SRC folder. One uses panda which provides better interfaces. Other one purely uses SqlAlchemy.
 ### Docker
 To run the example, you can use the commands below.
 <br />
@@ -37,5 +39,4 @@ docker run --name analytics -i -t --network "datascienceExerciseHuseyin" -p  888
 ### Current status of the project
 Project is doing what it suppose to do and nothing more. All the questions are answered in main(pure_pandas).ipynb. For clean graphics, I used pandas. All the operations and selections are made in memory.
 ### Todo:
-1. Create a main file that only uses SqlAlchemy ORM to improve efficiency and perfermence.
-2. Prepare a decent docker compose.
+1. Prepare a decent docker compose.
