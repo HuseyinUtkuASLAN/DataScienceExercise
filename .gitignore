@@ -112,3 +112,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+SRC/data/unzipped/ml-latest-small/tags.csv
+SRC/data/unzipped/ml-latest-small/ratings.csv
+SRC/data/unzipped/ml-latest-small/movies.csv
+SRC/data/unzipped/ml-latest-small/links.csv
+SRC/data/ml-latest-small.zip
+SRC/data/unzipped/ml-latest-small/README.txt
